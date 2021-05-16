@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621145845 source:d:\c++\avl2\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+
