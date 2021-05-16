@@ -291,6 +291,16 @@ void preorder(Nod* root)
     }
 }
 
+void inorder(Nod* root)
+{
+    if(root != nullptr)
+    {
+        inorder(root->left);
+        cout<<root->key<<" ";
+        inorder(root->right);
+    }
+}
+
 int main()
 {
     Nod *root = nullptr;
